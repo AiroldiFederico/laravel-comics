@@ -43,9 +43,9 @@ body {
 }
 
 
+//NAV BAR
 
-
-.main {
+.mainnav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,7 +59,7 @@ img {
 
 }
 
-ul {
+.ulnav {
     display: flex;
     margin: 0;
     padding: 0;
@@ -84,4 +84,67 @@ ul {
             
         }
 
+}
+
+// CORE   
+
+.maincore {
+    background-color: black;
+    padding-bottom: 1rem;
+
+    #jumbotron {
+        background-image: url('/img/jumbotron.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 20rem;
+        margin-bottom: 2rem;
+        position: relative;
+
+        P {
+            color: white;
+            font-weight: bolder;
+            background-color: #0282f9ff;
+            display: inline;
+            padding: 0.5rem;
+            position: absolute;
+            bottom: -2.4rem;
+            left: 6rem;
+        }
     }
+    
+    #slide {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        color: white;
+    }
+
+    #button {
+
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        button{
+            font-weight: bold;
+        }
+    }
+    
+}
+
+
+.slide2 {
+    width: calc(100% / 6);
+    padding: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    img {
+        width: 100%;
+        aspect-ratio: 1;
+        margin-bottom: 1rem;
+    }
+
+    span {
+        font-weight: normal;
+    }
+    
+}

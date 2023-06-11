@@ -19,10 +19,10 @@ $sections = [
 
 ?>
 
-<div class="main col-10 m-auto">
+<div class="mainnav col-10 m-auto">
     <div><img src=" {{ Vite::asset('resources/images/dc-logo.png') }}" alt=""></div>
     <nav>
-        <ul>
+        <ul class="ulnav">
             @foreach ($sections as $section)
                 <li class="{{ $section['active'] ? 'active' : '' }}">
                     <a href="#">{{ $section['name'] }}</a>

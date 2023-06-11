@@ -15,7 +15,7 @@
     <!-- includiamo l'header per tutte le pagine -->
     @include( 'partials.header' )
 
-    <main class="container">
+    <main>
         <!-- Contenuto variabile in base alle pagine -->
         @yield( 'content' )
         
