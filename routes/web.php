@@ -13,6 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+
+
 Route::get('/', function () {
-    return view('welcome');
-});
+
+    $title = '';
+
+
+
+    return view('pages.home', compact( 'title') ); //title => 'Titolo applicazione'
+})->name('home');
