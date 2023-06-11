@@ -93,9 +93,9 @@ img {
     padding-bottom: 1rem;
 
     #jumbotron {
-        background-image: url('/img/jumbotron.jpg');
+        background-image: url('/resources/images/jumbotron.jpg');
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size:cover;
         height: 20rem;
         margin-bottom: 2rem;
         position: relative;
@@ -119,15 +119,15 @@ img {
         color: white;
     }
 
-    #button {
+    // #button {
 
-        margin-top: 1rem;
-        display: flex;
-        justify-content: center;
-        button{
-            font-weight: bold;
-        }
-    }
+    //     margin-top: 1rem;
+    //     display: flex;
+    //     justify-content: center;
+    //     button{
+    //         font-weight: bold;
+    //     }
+    // }
     
 }
 
