@@ -22,7 +22,8 @@ Route::get('/', function () {
 
     $title = '';
 
+    $comics = config( 'db');
 
 
-    return view('pages.home', compact( 'title') ); //title => 'Titolo applicazione'
+    return view('pages.home', compact( 'title', 'comics') ); //title => 'Titolo applicazione'
 })->name('home');

@@ -9,4 +9,13 @@
 <h1>Pagina Home</h1>
 
 
+
+
+@foreach ( $comics as $comic)
+
+<li>{{ $comic['title'] }}</li>
+
+@endforeach
+
+
 @endsection

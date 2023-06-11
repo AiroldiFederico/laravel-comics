@@ -9,6 +9,9 @@
 </head>
 
 <body>
+    <!-- Navbar comics -->
+    @include( 'partials.navbar' )
+
     <!-- includiamo l'header per tutte le pagine -->
     @include( 'partials.header' )
 
